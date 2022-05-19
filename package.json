@@ -1,9 +1,9 @@
 {
-  "private": false,
+  "private": true,
   "name": "portfolio",
-  "description": "Personal portfolio of Nirmalya Ghosh",
+  "description": "Some parts of Prince Boucher",
   "license": "MIT",
-  "author": "Nirmalya Ghosh <nirmalya.email@gmail.com>",
+  "author": "Prince Boucher <sudonode@pm.me>",
   "scripts": {
     "build": "next build",
     "dev": "next dev",
@@ -36,7 +36,9 @@
     "rehype-prism-plus": "^1.3.2",
     "rehype-slug": "^5.0.1",
     "remark-external-links": "^9.0.1",
-    "remark-gfm": "^3.0.1"
+    "remark-gfm": "^3.0.1",
+    "sharp": "^0.30.4",
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^4.3.0",

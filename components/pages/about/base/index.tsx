@@ -17,7 +17,7 @@ const Page: FC = () => {
         >
           <Image
             src={AvatarImage}
-            alt="Nirmalya Ghosh"
+            alt="Prince Boucher"
             height={100}
             width={100}
             quality={100}
@@ -28,9 +28,9 @@ const Page: FC = () => {
         <Box>
           <VStack spacing={2} align="left">
             <Heading as="h1" size="lg" color="white">
-              Nirmalya Ghosh
+              Prince Boucher
             </Heading>
-            <Text fontWeight="bold">Software Engineer</Text>
+            <Text fontWeight="bold">Applied Generalist</Text>
           </VStack>
         </Box>
       </HStack>
@@ -41,8 +41,8 @@ const Page: FC = () => {
     return (
       <Box className="article">
         <Text fontWeight="bold">
-          Computer Science Engineer having interest in web-designing and
-          development with an eye for detail.
+          Marketer having interest in data and development with a resepect for
+          design.
         </Text>
       </Box>
     );
@@ -55,7 +55,7 @@ const Page: FC = () => {
           <Link
             py={2}
             px={4}
-            href="https://github.com/ghoshnirmalya"
+            href="https://github.com/princeboucher"
             rounded="sm"
             bg="#333"
             color="#fff"
@@ -72,7 +72,7 @@ const Page: FC = () => {
           <Link
             py={2}
             px={4}
-            href="https://www.linkedin.com/in/ghoshnirmalya/"
+            href="https://www.linkedin.com/in/princeboucher/"
             rounded="sm"
             bg="#0e76a8"
             color="#fff"

@@ -10,16 +10,13 @@ interface NavLink {
 const LINKS = [
   {
     url: "/projects",
-    title: "Projects",
+    title: "Experiences",
   },
   {
     url: "/articles",
     title: "Articles",
   },
-  {
-    url: "/guides",
-    title: "Guides",
-  },
+
   {
     url: "/about",
     title: "About",
