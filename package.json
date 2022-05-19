@@ -1,11 +1,12 @@
 {
   "private": true,
+  "homepage": ".",
   "name": "portfolio",
   "description": "Some parts of Prince Boucher",
   "license": "MIT",
   "author": "Prince Boucher <sudonode@pm.me>",
   "scripts": {
-    "build": "next build",
+    "build": "yarn;yarn build",
     "dev": "next dev",
     "lint": "next lint",
     "prepare": "husky install",
