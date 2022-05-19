@@ -6,16 +6,16 @@
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/NirmalyaGhosh_">
+  <a href="https://twitter.com/princeboucher">
     <img
-      alt="Twitter: Nirmalya Ghosh"
-      src="https://img.shields.io/twitter/follow/NirmalyaGhosh_.svg?style=social"
+      alt="Twitter: Prince Boucher"
+      src="https://img.shields.io/twitter/follow/princeboucher.svg?style=social"
       target="_blank"
     />
   </a>
 </p>
 
-This is a boilerplate for building portfolio applications using Next.js.
+This is a boilerplate for building portfolio applications using Next.js. Special shout to Nimral Yaghosh for the fork! nirmalyaghosh.com
 
 ## Overview
 
@@ -35,7 +35,7 @@ This boilerplate is built using the following technologies:
 ### 1. **Clone the application**
 
 ```sh
-git clone git@github.com:ghoshnirmalya/nirmalyaghosh.com.git portfolio
+git clone git@github.com:princeboucher/fingerprint.git portfolio
 ```
 
 ### 2. **Install necessary dependencies for the frontend application**
