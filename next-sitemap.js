@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://nirmalyaghosh.com",
+  siteUrl: "https://princeboucher.com",
   generateRobotsTxt: false,
   changefreq: "daily",
   priority: 1,

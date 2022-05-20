@@ -1,9 +1,9 @@
 const siteConfig = {
   details: {
-    title: "Nirmalya Ghosh",
-    tagLine: "Sofware Developer",
+    title: "Prince Boucher",
+    tagLine: "Creative Technologist",
     description:
-      "Articles and guides about JavaScript, CSS and Web Development from a software engineer.",
+      "Articles and thoughts about organizing, software, design, and things I'm sorta familiar with.",
     url: "https://www.nirmalyaghosh.com",
   },
   assets: {
@@ -11,7 +11,7 @@ const siteConfig = {
     favicon: "/images/common/favicon.svg",
   },
   socialLinks: {
-    twitter: "@nirmalyaghosh23",
+    twitter: "@princeboucher",
   },
 };
 

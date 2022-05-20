@@ -8,9 +8,9 @@ const globby = require("globby");
   const sitemap = `
     <rss version="2.0">
       <channel>
-        <title>Blog by Nirmalya Ghosh</title>
-        <link>https://www.nirmalyaghosh.com</link>
-        <description>Personal portfolio of Nirmalya Ghosh</description>
+        <title>Blog by Prince Boucher</title>
+        <link>https://www.princeboucher.com</link>
+        <description>Personal portfolio of Prince Boucher</description>
         <language>en</language>
         ${pages
           .map((page) => {
@@ -23,7 +23,7 @@ const globby = require("globby");
             return `
               <item>
                 <link>
-                  ${`https://nirmalyaghosh.com${route}`}
+                  ${`https://princeboucher.com${route}`}
                 </link>
               </item>
             `;
