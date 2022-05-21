@@ -21,7 +21,7 @@ const { withContentlayer } = require("next-contentlayer");
 
 module.exports = withContentlayer({
   reactStrictMode: true,
-  webpack: (config, { dev, isServer }) => {
+  webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
     if (!dev && !isServer) {
       Object.assign(config.resolve.alias, {
         "react/jsx-runtime.js": "preact/compat/jsx-runtime",
