@@ -3,7 +3,7 @@
   "homepage": ".",
   "name": "fingerprint",
   "description": "Some parts of Prince Boucher",
-  "version": "8.5.5",
+  "version": "0.0.1",
   "license": "MIT",
   "author": "Prince Boucher <sudonode@pm.me>",
   "scripts": {
@@ -13,7 +13,8 @@
     "prepare": "husky install",
     "release": "release-it",
     "start": "next start",
-    "postbuild": "next-sitemap"
+    "postbuild": "next-sitemap",
+    "start-localhost": "next start"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.8",
@@ -25,6 +26,9 @@
     "framer-motion": "^6.3.0",
     "ga-4-react": "^0.1.281",
     "github-slugger": "^1.4.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^10.0.1",
     "next": "^12.1.5",
     "next-compose-plugins": "^2.2.1",
     "next-contentlayer": "^0.2.2",
