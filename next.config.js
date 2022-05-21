@@ -29,6 +29,20 @@ module.exports = withContentlayer({
         "react-dom": "preact/compat",
         "react-dom/test-utils": "preact/test-utils",
       });
+
+      module.exports = {
+        exportPathMap: async function (
+          defaultPathMap,
+          { dev, dir, outDir, distDir, buildId }
+        ) {
+          return {
+            "/": { page: "/" },
+            "/articles": { page: "/articles" },
+            "/categories": { page: "/categories" },
+            "/projects": { page: "/projects" },
+          };
+        },
+      };
     }
 
     return config;
