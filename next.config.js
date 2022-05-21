@@ -36,10 +36,7 @@ module.exports = withContentlayer({
           { dev, dir, outDir, distDir, buildId }
         ) {
           return {
-            "/": { page: "/" },
-            "/articles": { page: "/articles" },
-            "/categories": { page: "/categories" },
-            "/projects": { page: "/projects" },
+            "/": { page: "./pages" },
           };
         },
       };
