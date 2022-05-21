@@ -6,8 +6,9 @@
   "version": "0.0.1",
   "license": "MIT",
   "author": "Prince Boucher <sudonode@pm.me>",
+  "workspaces": "/",
   "scripts": {
-    "build": "next build",
+    "build": "next build && next export",
     "dev": "next dev",
     "lint": "next lint",
     "prepare": "husky install",
