@@ -1,8 +1,9 @@
 {
   "private": true,
   "homepage": ".",
-  "name": "portfolio",
+  "name": "fingerprint",
   "description": "Some parts of Prince Boucher",
+  "version": "8.5.5",
   "license": "MIT",
   "author": "Prince Boucher <sudonode@pm.me>",
   "scripts": {
